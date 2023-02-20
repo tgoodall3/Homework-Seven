@@ -1,0 +1,104 @@
+.BlogContent {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+.BlogContent .header {
+  margin-bottom: 30px;
+}
+.BlogContent .header span {
+  font-size: 30px;
+  font-family: primanovacondensed;
+  border-bottom: 2px black solid;
+}
+.BlogContent .TopContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.BlogContent .TopContent .image img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 199px;
+  height: 287px;
+}
+.BlogContent .TopContent .textContent {
+  margin-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.BlogContent .TopContent .head span {
+  font-family: primanovacondensed;
+  font-size: 30px;
+  border-bottom: 2px black solid;
+}
+.BlogContent .TopContent .text {
+  width: 290px;
+}
+.BlogContent .TopContent .text span {
+  font-family: gillsansbold;
+  font-size: 16px;
+}
+.BlogContent .TopContent button {
+  background-color: #79ADDC;
+  border-radius: 16px;
+  border: none;
+  width: 133px;
+  height: 40px;
+  font-family: gillsansbold;
+  color: white;
+}
+.BlogContent .BottomContent {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.BlogContent .BottomContent .image img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 199px;
+  height: 287px;
+}
+.BlogContent .BottomContent .textContent {
+  margin-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.BlogContent .BottomContent .textContent .head span {
+  font-family: primanovacondensed;
+  font-size: 30px;
+  border-bottom: 2px black solid;
+}
+.BlogContent .BottomContent .textContent .text {
+  width: 290px;
+}
+.BlogContent .BottomContent .textContent .text span {
+  font-family: gillsansbold;
+  font-size: 16px;
+}
+.BlogContent .BottomContent .textContent button {
+  background-color: #79ADDC;
+  border-radius: 16px;
+  border: none;
+  width: 133px;
+  height: 40px;
+  font-family: gillsansbold;
+  color: white;
+}
